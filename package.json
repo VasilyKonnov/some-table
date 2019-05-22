@@ -1,0 +1,29 @@
+{
+  "name": "New-project",
+  "version": "3.0.0",
+  "description": "Start template",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open  --watch",
+    "build": "webpack --mode production && prettier --print-width=120 --parser html --write dist/*.html"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.17.1",
+    "raw-loader": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "terser-webpack-plugin": "^1.2.4",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
